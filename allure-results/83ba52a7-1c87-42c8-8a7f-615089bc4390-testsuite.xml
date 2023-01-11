@@ -1,0 +1,89 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673394364419' stop='1673394372147'>
+    <name>Booking apk automation: Stays view</name>
+    <title>Booking apk automation: Stays view</title>
+    <test-cases>
+        <test-case start='1673394364419' status='passed' stop='1673394364419'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 11.0-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673394364419' status='passed' stop='1673394369742'>
+            <name>Given The user is in the stays view</name>
+            <title>Given The user is in the stays view</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 11.0-11'/>
+            </parameters>
+            <steps>
+                <step start='1673394369424' status='passed' stop='1673394369741'>
+                    <name>POST /session/:sessionId/back</name>
+                    <title>POST /session/:sessionId/back</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1673394369742' status='passed' stop='1673394372147'>
+            <name>Then The user must see the destination options</name>
+            <title>Then The user must see the destination options</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 11.0-11'/>
+            </parameters>
+            <steps>
+                <step start='1673394369744' status='passed' stop='1673394372029'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='544b42ef-4a0b-4161-bd76-c75ecb167151-attachment.json' type='application/json' size='123'/>
+                        <attachment title='Response' source='ce422db1-5f9a-4f72-be72-d8c28469ffdb-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673394372034' status='passed' stop='1673394372143'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='b3f686e4-4512-4594-83c6-92e92b8a3504-attachment.json' type='application/json' size='123'/>
+                        <attachment title='Response' source='e20a83fb-f6a0-4a87-aaf5-a7590e6db4d0-attachment.json' type='application/json' size='148'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1673394372147' status='passed' stop='1673394372147'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 11.0-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

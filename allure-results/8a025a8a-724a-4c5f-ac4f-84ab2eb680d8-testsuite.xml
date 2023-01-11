@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673466646947' stop='1673466646948'>
+    <name>Booking apk automation: Final Step</name>
+    <title>Booking apk automation: Final Step</title>
+    <test-cases>
+        <test-case start='1673466646947' status='passed' stop='1673466646947'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 11.0-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673466646947' status='passed' stop='1673466646947'>
+            <name>Given The user is on the final step of the form</name>
+            <title>Given The user is on the final step of the form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 11.0-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673466646947' status='broken' stop='1673466646948'>
+            <name>When I have to fill the form with my credit card info: 1234567891245789 - Visa - 05/25</name>
+            <title>When I have to fill the form with my credit card info: 1234567891245789 - Visa - 05/25</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 11.0-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I have to fill the form with my credit card info: 1234567891245789 - Visa - 05/25" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I have to fill the form with my credit card info: 1234567891245789 - Visa - 05/25" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Usuario\Desktop\BookingYape\features\login.feature):1:1
+                	at Scenario(Final Step):39:3
+                	at Step(I have to fill the form with my credit card info: &lt;cardNumber> - &lt;cardType> - &lt;expirationDate>):41:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673466646948' status='passed' stop='1673466646948'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 11.0-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

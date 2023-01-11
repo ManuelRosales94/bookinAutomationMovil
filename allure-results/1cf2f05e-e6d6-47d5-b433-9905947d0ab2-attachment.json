@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//android.widget.Spinner[@resource-id=\"com.booking:id/new_credit_card_type_spinner\"]"
+}

@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673393057233' stop='1673393057891'>
+    <name>Booking apk automation: Final Step</name>
+    <title>Booking apk automation: Final Step</title>
+    <test-cases>
+        <test-case start='1673393057233' status='passed' stop='1673393057233'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 11.0-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673393057233' status='passed' stop='1673393057233'>
+            <name>Given The user is on the final step of the form</name>
+            <title>Given The user is on the final step of the form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 11.0-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673393057233' status='passed' stop='1673393057891'>
+            <name>When I have to fill the form with my credit card info: 1234567891245789 - Visa - 05/25 - 123</name>
+            <title>When I have to fill the form with my credit card info: 1234567891245789 - Visa - 05/25 - 123</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 11.0-11'/>
+            </parameters>
+            <steps>
+                <step start='1673393057234' status='passed' stop='1673393057406'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0f06d7bc-9b62-4950-bea3-c5f5a630c1d2-attachment.json' type='application/json' size='123'/>
+                        <attachment title='Response' source='b4ceb3a3-9d1d-4301-8f25-3d39329cef2d-attachment.json' type='application/json' size='988'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673393057408' status='passed' stop='1673393057889'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='e97057f7-1822-4b8b-b7c7-e4841f1ffa65-attachment.json' type='application/json' size='123'/>
+                        <attachment title='Response' source='7d80b72c-fb41-4818-9204-71d4806f6985-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1673393057891' status='passed' stop='1673393057891'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 11.0-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

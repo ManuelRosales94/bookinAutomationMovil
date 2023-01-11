@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//android.widget.FrameLayout[@resource-id=\"com.booking:id/results_list_facet\"]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup"
+}

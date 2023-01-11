@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//android.widget.EditText[@resource-id=\"com.booking:id/new_credit_card_expiry_date_edit\"]"
+}

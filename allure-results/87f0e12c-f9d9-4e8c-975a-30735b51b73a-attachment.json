@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//javaClass[@resource-id=\"com.booking:id/bstage1_contact_telephone_value\"]/android.widget.EditText"
+}

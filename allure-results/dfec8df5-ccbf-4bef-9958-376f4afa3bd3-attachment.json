@@ -1,0 +1,21 @@
+{
+  "actions": [
+    {
+      "action": "longPress",
+      "options": {
+        "x": 525,
+        "y": 1160
+      }
+    },
+    {
+      "action": "moveTo",
+      "options": {
+        "x": 525,
+        "y": -1000
+      }
+    },
+    {
+      "action": "release"
+    }
+  ]
+}

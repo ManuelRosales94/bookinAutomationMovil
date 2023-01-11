@@ -1,0 +1,170 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673237891107' stop='1673237906185'>
+    <name>Booking apk automation: Enter date range</name>
+    <title>Booking apk automation: Enter date range</title>
+    <test-cases>
+        <test-case start='1673237891107' status='passed' stop='1673237891107'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 11.0-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673237891107' status='passed' stop='1673237891108'>
+            <name>Given The user is on the date view</name>
+            <title>Given The user is on the date view</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 11.0-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673237891108' status='broken' stop='1673237906184'>
+            <name>When The user specify the range of days: 15 - 18 - of February 2023</name>
+            <title>When The user specify the range of days: 15 - 18 - of February 2023</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 11.0-11'/>
+            </parameters>
+            <steps>
+                <step start='1673237891108' status='passed' stop='1673237891272'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4b0cba7a-9073-4c7c-b66a-46c40cab7ca7-attachment.json' type='application/json' size='92'/>
+                        <attachment title='Response' source='075a88d3-3c08-46c9-b26e-62cf1f501f60-attachment.json' type='application/json' size='988'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673237892785' status='passed' stop='1673237894698'>
+                    <name>POST /session/:sessionId/touch/perform</name>
+                    <title>POST /session/:sessionId/touch/perform</title>
+                    <attachments>
+                        <attachment title='Request' source='213096db-2823-4c53-9fd6-6f3ee2f5765d-attachment.json' type='application/json' size='266'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673237894698' status='passed' stop='1673237895617'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='d1626ac2-dae0-4246-84d8-1d2a7bc354dd-attachment.json' type='application/json' size='92'/>
+                        <attachment title='Response' source='2eacedae-7111-48f1-83b6-36cfafe62618-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673237895618' status='passed' stop='1673237897564'>
+                    <name>POST /session/:sessionId/touch/perform</name>
+                    <title>POST /session/:sessionId/touch/perform</title>
+                    <attachments>
+                        <attachment title='Request' source='64543fb3-1916-4186-b7ac-19aa3b1fbbbf-attachment.json' type='application/json' size='266'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673237897564' status='passed' stop='1673237898479'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='31d18bdf-3863-41c2-b1c5-3fcea9589712-attachment.json' type='application/json' size='92'/>
+                        <attachment title='Response' source='7456360e-6681-4d7e-806c-8b9a8e99f130-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673237898480' status='passed' stop='1673237900481'>
+                    <name>POST /session/:sessionId/touch/perform</name>
+                    <title>POST /session/:sessionId/touch/perform</title>
+                    <attachments>
+                        <attachment title='Request' source='2559a7f1-e0aa-480d-98eb-835d0f33e318-attachment.json' type='application/json' size='266'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673237900481' status='passed' stop='1673237901280'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='6fe5a9ba-e02e-4f15-9856-db3030aa69c0-attachment.json' type='application/json' size='92'/>
+                        <attachment title='Response' source='21527940-02dd-4d9f-8b33-7f5d65b87853-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673237901281' status='passed' stop='1673237903164'>
+                    <name>POST /session/:sessionId/touch/perform</name>
+                    <title>POST /session/:sessionId/touch/perform</title>
+                    <attachments>
+                        <attachment title='Request' source='0cdb716a-dc3e-44c1-8b2a-27da3c6f92ac-attachment.json' type='application/json' size='266'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673237903164' status='passed' stop='1673237903954'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='b5dc4258-ac03-4e62-b16c-baf1fc705b1d-attachment.json' type='application/json' size='92'/>
+                        <attachment title='Response' source='8382fbff-0e9b-47bb-9b93-6fbd3630b31f-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673237903955' status='broken' stop='1673237906184'>
+                    <name>POST /session/:sessionId/touch/perform</name>
+                    <title>POST /session/:sessionId/touch/perform</title>
+                    <attachments>
+                        <attachment title='Request' source='48662cf1-e2b6-4efe-b205-08bbf7487815-attachment.json' type='application/json' size='266'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>unknown error: An unknown server-side error occurred while processing the command. Original error: java.lang.SecurityException: Injecting to another application requires INJECT_EVENTS permission</message>
+                <stack-trace>unknown error: An unknown server-side error occurred while processing the command. Original error: java.lang.SecurityException: Injecting to another application requires INJECT_EVENTS permission
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async StaysPage.setDate (C:\Users\Usuario\Desktop\BookingYape\features\pageobjects\stays.view.ts:83:13)
+                    at async World.&lt;anonymous> (C:\Users\Usuario\Desktop\BookingYape\features\step-definitions\steps.ts:38:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673237906184' status='pending' stop='1673237906185'>
+            <name>Then The user see the range of days specified on the stays view: Wed, Feb 15 - Sat, Feb 18</name>
+            <title>Then The user see the range of days specified on the stays view: Wed, Feb 15 - Sat, Feb 18</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 11.0-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673237906185' status='passed' stop='1673237906185'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 11.0-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

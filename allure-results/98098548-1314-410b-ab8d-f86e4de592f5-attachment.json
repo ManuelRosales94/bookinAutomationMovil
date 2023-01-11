@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//android.widget.LinearLayout[@resource-id=\"com.booking:id/facet_search_box_fields\"]"
+}

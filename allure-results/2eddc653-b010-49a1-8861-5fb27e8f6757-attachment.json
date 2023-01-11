@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//android.widget.RadioButton[@resource-id=\"com.booking:id/business_purpose_leisure\"]"
+}

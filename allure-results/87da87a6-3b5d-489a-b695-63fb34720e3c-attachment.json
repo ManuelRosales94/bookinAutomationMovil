@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//android.widget.Button[@resource-id=\"com.booking:id/bui_input_stepper_add_button\"]"
+}
